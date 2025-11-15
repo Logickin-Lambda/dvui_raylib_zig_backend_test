@@ -32,7 +32,7 @@ pub fn build(b: *std.Build) void {
         .target = target,
         .optimize = optimize,
         .backend = .raylib,
-        .raylib_use_c = false,
+        .libc = false,
     });
 
     const backend_mod = dvui_dep.module("raylib");
