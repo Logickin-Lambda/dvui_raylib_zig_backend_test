@@ -33,9 +33,8 @@
     // internet connectivity.
     .dependencies = .{
         .dvui = .{
-            // .url = "git+https://github.com/david-vanderson/dvui?ref=main#77bded1a0b46fc44879c694bbbfc3f379b55ed68",
-            // .hash = "dvui-0.4.0-dev-AQFJmSdN1gBPWovbxPvd42fFTTiwAhHEvIxR7pd1zeS5",
-            .path = "../../2-Contribution/dvui",
+            .url = "git+https://github.com/Logickin-Lambda/dvui?ref=main#c9a984f9c583bdb4c650423bbd5890fda6d1d26a",
+            .hash = "dvui-0.4.0-dev-AQFJmfR41gAOOAUVjRweL3nKPmXRkVT6HmAInb-Kjni5",
         },
         .raylib_zig = .{
             .url = "git+https://github.com/raylib-zig/raylib-zig?ref=devel#3cd4d3179d967fc8b931514603fdbc4a43a1d771",

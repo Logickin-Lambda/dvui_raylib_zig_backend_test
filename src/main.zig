@@ -5,7 +5,7 @@ const raylib_backend = @import("backend");
 
 // Horrible practice if you do this, and you should pick either approaches, but
 // this madness is written to demostrate that you could access raylib with either
-// ways if you have properly imported and injected the dependency
+// ways if you have properly imported and injected the dependencies.
 const raylib = raylib_backend.raylib;
 const raylib_direct = @import("raylib");
 
