@@ -31,16 +31,16 @@ pub fn build(b: *std.Build) void {
     const dvui_dep = b.dependency("dvui", .{
         .target = target,
         .optimize = optimize,
-        .backend = .raylib,
+        .backend = .raylib_zig,
         .libc = false,
     });
 
-    const backend_mod = dvui_dep.module("raylib");
+    const backend_mod = dvui_dep.module("raylib_zig");
     backend_mod.addImport("raylib", raylib);
     backend_mod.addImport("raygui", raygui);
 
-    exe.root_module.addImport("dvui", dvui_dep.module("dvui_raylib"));
-    exe.root_module.addImport("backend", dvui_dep.module("raylib"));
+    exe.root_module.addImport("dvui", dvui_dep.module("dvui_raylib_zig"));
+    exe.root_module.addImport("backend", backend_mod);
 
     b.installArtifact(exe);
 

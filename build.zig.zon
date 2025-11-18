@@ -33,8 +33,8 @@
     // internet connectivity.
     .dependencies = .{
         .dvui = .{
-            .url = "git+https://github.com/Logickin-Lambda/dvui?ref=main#55435c872bb924260a69a419dca1bd14ab7a7229",
-            .hash = "dvui-0.4.0-dev-AQFJmTOu1wDJfFO-hHPqTUrDIKiy83S3FZNYbjFOR0eQ",
+            .url = "git+https://github.com/Logickin-Lambda/dvui?ref=zig-based-backend-prototype#bb27cb763afaff38dd062f77d1fb9bc06eeed7ee",
+            .hash = "dvui-0.4.0-dev-AQFJmey51wAWKoYtqMYHl1vbAtokVeMrDZw20X2aZOEO",
         },
         .raylib_zig = .{
             .url = "git+https://github.com/raylib-zig/raylib-zig?ref=devel#3cd4d3179d967fc8b931514603fdbc4a43a1d771",
